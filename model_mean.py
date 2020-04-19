@@ -16,7 +16,7 @@ def sample(n):
 
 
 xx = np.arange(0, 5, 0.01)
-np.random.seed(0)
+np.random.seed(2)
 y_poly_sum = np.zeros(len(xx))
 y_lin_sum = np.zeros(len(xx))
 
